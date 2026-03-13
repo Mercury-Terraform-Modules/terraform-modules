@@ -22,6 +22,7 @@ jobs:
         with:
           use-ssh-source-format: true
           disable-wiki: false
+          module-path-ignore: "**/examples/**,**/test/**,root-modules"
 
       - id: debug
         name: Debug
