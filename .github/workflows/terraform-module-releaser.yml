@@ -21,7 +21,7 @@ jobs:
         id: release
         with:
           use-ssh-source-format: true
-          disable-wiki: true
+          disable-wiki: false
 
       - id: debug
         name: Debug

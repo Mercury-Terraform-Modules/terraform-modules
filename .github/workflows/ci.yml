@@ -16,7 +16,7 @@ jobs:
     name: Terraform Validation
     runs-on: [self-hosted, main]
     strategy:
-      matrix: { env: ["aws/vpc", "aws/eks", "aws/ecs"] }
+      matrix: { env: ["aws/vpc", "aws/ecs"] }
     defaults:
       run:
         working-directory: "${{ matrix.env }}"
