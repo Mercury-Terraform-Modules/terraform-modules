@@ -40,5 +40,5 @@ jobs:
       - name: Terraform Validate
         run: terraform validate -no-color
 
-      # - name: TFlint
-      #   run: tflint
+      - name: TFlint
+        run: tflint
